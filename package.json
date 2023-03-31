@@ -1,0 +1,39 @@
+{
+  "name": "tour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "build": "npm i",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.14.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mdb-ui-kit": "^4.2.0",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "secret": "^1.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
